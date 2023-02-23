@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    color: black;
+    align-items: center;
+
+}
+
+body h1 {
+    text-align: center;
+}
+
+
+.table_book {
+
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #eaffea;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em;
+    border: 1px solid black;
+}
+
+
+.table_book tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+#backlink {
+    display: block;
+    width: 100px;
+    height: 10px;
+    font-size: 0.5em;
+    border-radius: 10px;
+    background-color: rgb(3, 34, 34);
+    box-shadow: 5px 5px 10px #0000004f;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 2em auto;
+    text-align: center;
+}
