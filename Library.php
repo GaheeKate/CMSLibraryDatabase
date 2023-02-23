@@ -1,10 +1,7 @@
   <?php
 
     $connect = mysqli_connect(
-        'sql109.epizy.com', //Host
-        'epiz_33366146',
-        'XPqKajsUiP',
-        'epiz_33366146_portfolio' //Database
+
 
     );
 
